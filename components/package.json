@@ -1,6 +1,6 @@
 {
   "name": "@npoc/components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "@babel/core": "^7.5.0",
     "@babel/plugin-transform-flow-strip-types": "^7.4.4",

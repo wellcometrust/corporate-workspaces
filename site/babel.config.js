@@ -4,6 +4,6 @@ module.exports = function (api) {
   const presets = ['@npoc/components/babel.config'];
 
   return {
-    presets,
+    presets
   };
 };

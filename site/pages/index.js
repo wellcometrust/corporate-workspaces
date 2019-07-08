@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Acomp from '@npoc/components/AComp/AComp';
+// import Acomp from '@npoc/components/AComp/AComp';
 import BComp from '../components/BComp';
 
 // import { Input } from '@contentful/forma-36-react-components';

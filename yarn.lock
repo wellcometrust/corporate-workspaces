@@ -896,6 +896,19 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.4.tgz#a87b4b04e5ae14a88d48ebef15015f6b7d1f5677"
   integrity sha512-kBa+cDHOR9jpRJ+kcGMsysrls0leukrm68DmFQoMIWQcXdr2cZvyvypWuGYT7U+9kAExUE7+T7r6G3C3A6L8MQ==
 
+"@npoc/components@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@npoc/components/-/components-1.0.0.tgz#8dae11ae2e13fe22f755748861b97ae261144b3f"
+  integrity sha512-MXof2No+mSdy3315jZRLYWed/2DgxskOOtDFEwfNs4ThUIvVsLMbKk9sp207TrYkXW6RvP8FYt6FeoU0Z64DuA==
+  dependencies:
+    "@babel/core" "^7.5.0"
+    "@babel/plugin-transform-flow-strip-types" "^7.4.4"
+    "@babel/preset-env" "^7.5.0"
+    "@babel/preset-flow" "^7.0.0"
+    "@babel/preset-react" "^7.0.0"
+    babel-loader "^8.0.6"
+    babel-plugin-styled-components "^1.10.6"
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
