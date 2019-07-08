@@ -1,0 +1,13 @@
+{
+  "name": "@npoc/components",
+  "version": "1.0.0",
+  "dependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.4",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6"
+  }
+}
