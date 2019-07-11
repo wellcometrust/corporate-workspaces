@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import Acomp from '@npoc/components/AComp/AComp';
+import { Acomp } from '@npoc/components';
 import BComp from '../components/BComp';
 
 // import { Input } from '@contentful/forma-36-react-components';
@@ -8,10 +8,11 @@ import BComp from '../components/BComp';
 
 const Home = () => (
   <div>
+    {/*<AComp>styf</AComp>*/}
     <BComp>
       Test
     </BComp>
-    {/*<Input>MyInput</Input>*/}
+   {/* <Input>MyInput</Input>*/}
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus
       tincidunt mi, ut vehicula leo tempor nec. Nulla vitae posuere nisl, ut
       rhoncus ante. Pellentesque habitant morbi tristique senectus et netus et

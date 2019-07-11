@@ -1,14 +1,24 @@
-module.exports = function () {
-  const presets: [
-    'next/babel'
+module.exports = function (api) {
+  const presets = [
+    '@babel/preset-env',
+    '@babel/preset-react'
   ];
 
-  const plugins: [
-    'babel-plugin-styled-components'
-  ]
+  const plugins = [
+    // [
+    //   'styled-components',
+    //   {
+    //     ssr: true,
+    //     displayName: true,
+    //     preprocess: false,
+    //   },
+    // ],
+  ];
+
+  console.log('CONFIG running');
 
   return {
     presets,
-    plugins
-  }
-}
+    plugins,
+  };
+};

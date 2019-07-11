@@ -12,4 +12,7 @@ const nextConfig = {
   }
 };
 
-module.exports = withPlugins([[withFonts]], nextConfig);
+module.exports = withPlugins([
+  [withFonts]
+], nextConfig);
+

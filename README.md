@@ -2,7 +2,7 @@
 
 This is currently a work in progress to establish a good approach to potentially separating the codebase of `corporate-react` so that components are then available for import into other projects.  
 
-https://github.com/wellcometrust/nextjs-lerna-poc
+The original premise was to investigate using Lerna, hence the name of the repo, but a decision was taken to first investigate using Yarn workspaces. 
 
 ## Mono repo setup via Yarn Workspaces
 
