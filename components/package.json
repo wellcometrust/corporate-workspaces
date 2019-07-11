@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel src --out-file ./dist/index.js"
+    "build": "rollup -c"
   },
   "peerDependencies": {
     "react": "^16.8.6",
@@ -19,6 +19,10 @@
     "babel-loader": "^8.0.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "rollup": "^1.16.7",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   }

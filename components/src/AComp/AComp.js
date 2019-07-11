@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AComp = ({ children }) => (
+export const AComp = ({ children }) => (
   <div>
     <h2>Test Component</h2>
     {children}

@@ -1,1 +1,2 @@
-export { AComp } from './AComp';
+export { AComp } from './AComp/AComp';
+git
