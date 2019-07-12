@@ -1,8 +1,8 @@
 {
   "name": "@npoc/components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
   "module": "dist/esm/index.js",
   "scripts": {
     "build": "rollup -c"

@@ -8,7 +8,7 @@ import BComp from '../components/BComp';
 
 const Home = () => (
   <div>
-    {/*<AComp>styf</AComp>*/}
+    <AComp>styf</AComp>
     <BComp>
       Test
     </BComp>
