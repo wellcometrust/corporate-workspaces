@@ -1,12 +1,13 @@
 {
   "name": "@npoc/components",
-  "version": "1.0.6",
+  "version": "1.0.7",
+  "homepage": "https://github.com/wellcometrust/nextjs-lerna-poc/tree/master/components",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
     "build:clean": "rm -rf dist esm",
-    "build": "yarn build:clean && rollup -c",
+    "build": "rollup -c",
     "prepare": "yarn build"
   },
   "peerDependencies": {
