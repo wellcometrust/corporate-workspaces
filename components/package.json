@@ -1,9 +1,9 @@
 {
   "name": "@npoc/components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
-  "main": "dist/bundle.js",
-  "module": "dist/esm/bundle.js",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
     "build:clean": "rm -rf dist esm",
     "build": "yarn build:clean && rollup -c"

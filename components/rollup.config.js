@@ -5,11 +5,11 @@ import babel from 'rollup-plugin-babel';
 export default {
   input: 'src/index.js',
   output: {
-    file: 'dist/bundle.js',
+    file: 'dist/index.js',
     format: 'cjs'
   },
   output: {
-    file: 'dist/esm/bundle.js',
+    file: 'dist/esm/index.js',
     format: 'esm'
   },
   // All the used libs needs to be here
