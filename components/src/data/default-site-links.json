@@ -1,0 +1,120 @@
+[
+    {
+        "id": "0f986dd2-8bbe-4d39-9ba9-5ebee034f54d",
+        "url": "/",
+        "text": "Home"
+    },
+    {
+        "id": "bc904ac2-6305-4d60-a6f6-f82e8b423782",
+        "url": "/funding",
+        "text": "Funding",
+        "navLinks": [
+            {
+                "id": "a-0",
+                "url": "/funding/schemes",
+                "text": "Find a scheme"
+            },
+            {
+                "id": "a-1",
+                "url": "/funding/guidance",
+                "text": "Guidance"
+            },
+            {
+                "id": "a-2",
+                "url": "/funding/research-careers",
+                "text": "Develop your research career"
+            },
+            {
+                "id": "a-3",
+                "url": "/funding/people-and-projects",
+                "text": "Funded people and projects"
+            }
+        ]
+    },
+    {
+        "id": "b",
+        "url": "/what-we-do",
+        "text": "What we do",
+        "navLinks": [
+            {
+                "id": "b-0",
+                "url": "/what-we-do/our-work",
+                "text": "Our work"
+            },
+            {
+                "id": "b-1",
+                "url": "/what-we-do/reports",
+                "text": "Reports"
+            },
+            {
+                "id": "b-2",
+                "url": "/reports/wellcome-global-monitor/2018",
+                "text": "Wellcome Global Monitor"
+            },
+            {
+                "id": "b-3",
+                "url": "/what-we-do/our-work/wellcome-photography-prize/2019",
+                "text": "Wellcome Photography Prize"
+            },
+            {
+                "id": "b-4",
+                "url": "/all-our-websites",
+                "text": "All our websites"
+            }
+        ]
+    },
+    {
+        "id": "c",
+        "url": "/about-us",
+        "text": "About us",
+        "navLinks": [
+            {
+                "id": "c-0",
+                "url": "/jobs",
+                "text": "Jobs"
+            },
+            {
+                "id": "c-1",
+                "url": "/about-us/history-wellcome",
+                "text": "History"
+            },
+            {
+                "id": "c-2",
+                "url": "/about-us/investments",
+                "text": "Investments"
+            },
+            {
+                "id": "c-3",
+                "url": "/about-us/governance",
+                "text": "Governance"
+            },
+            {
+                "id": "c-4",
+                "url": "/about-us/teams",
+                "text": "Teams"
+            },
+            {
+                "id": "c-5",
+                "url": "/about-us/contact-us",
+                "text": "Contact us"
+            }
+        ]
+    },
+    {
+        "id": "d",
+        "url": "/news",
+        "text": "News",
+        "navLinks": [
+            {
+                "id": "d-0",
+                "url": "/news/all",
+                "text": "All news and views"
+            },
+            {
+                "id": "d-1",
+                "url": "/media-office",
+                "text": "Media office"
+            }
+        ]
+    }
+]
