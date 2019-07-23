@@ -188,16 +188,30 @@ export default ({ children }) => {
     <HeaderContainer>
       <>
         <LogoContainer>
-          <a prefetch href="/">
+          <Link prefetch href="/">
             <a className="brand-link">
               <Logo data={logoData.medium} title="Wellcome" />
               <Logo data={logoData.small} className={logoSmallClass} />
               <Logo data={logoData.large} className={logoLargeClass} />
             </a>
-          </a>
+          </Link>
         </LogoContainer>
         <Hamburger onClick={() => openNav(true)} />
         <MobileNav className={isNavActive ? 'is-active' : ''}>
+          <MobileNavHeader>
+            <NavCloseButton type="button" onClick={() => openNav(false)}>
+              <Icon name="close" />
+              Close <span className="visually-hidden">menu</span>
+            </NavCloseButton>
+            <SearchButton
+              type="button"
+              onClick={() => openSearch(true)}
+              className={isSearchActive ? 'is-disabled' : ''}
+            >
+              Search
+              <Icon name="search" />
+            </SearchButton>
+          </MobileNavHeader>
           <nav>
             <NavLinks data={navLinks} />
           </nav>
