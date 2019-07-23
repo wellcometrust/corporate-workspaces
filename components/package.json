@@ -10,6 +10,15 @@
     "build": "rollup -c",
     "prepare": "yarn build"
   },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "core-js": "^3.1.4",
+    "lodash.throttle": "^4.1.1",
+    "polished": "^3.4.1",
+    "regenerator-runtime": "^0.13.2",
+    "styled-components": "^4.3.1",
+    "styled-normalize": "^8.0.6"
+  },
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
@@ -17,15 +26,21 @@
   "devDependencies": {
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.4",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.4",
     "@babel/preset-env": "^7.5.4",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.101.0",
+    "flow-typed": "^2.5.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "rollup": "^1.16.7",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-url": "^2.2.2",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   }
